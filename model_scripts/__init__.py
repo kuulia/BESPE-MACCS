@@ -1,1 +1,1 @@
-__all__ = ['generate_MACCS', 'krr']
+__all__ = ['generate_MACCS', 'add_BESPE', 'krr']
