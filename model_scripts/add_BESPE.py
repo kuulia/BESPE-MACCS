@@ -19,7 +19,7 @@ def one(df: pd.DataFrame) -> pd.DataFrame:
     smarts_patterns = df.columns
     for group in smarts_patterns:
         if (group not in EXCLUDE):
-            fp[group] = np.where(df[group] == 1, 1, 0)
+            fp[f'{group}_1'] = np.where(df[group] == 1, 1, 0)
     fp = remove_zero_cols(fp)
     return fp
 
@@ -67,15 +67,15 @@ def main():
     smarts = smarts.drop(columns=['compound'])
     
     # generate binary encoded features
-    bespe_one_plus = one(smarts)
+    bespe_one = one(smarts)
     bespe_two_to_four = two_to_four(smarts)
     bespe_four_plus = more_than_four(smarts)
     carbons = binary_encoded(smarts, 'carbon number', 'C', 5) # 5-bit encoding 
-    oxygens = binary_encoded(smarts, 'oxygen count', 'O', 5) 
+    oxygens = binary_encoded(smarts, 'oxygen count', 'O', 5)  # 5-bit encoding 
 
-    # combine features
-    bespe = bespe_one_plus.join([bespe_two_to_four, carbons, 
-                                 oxygens, bespe_four_plus])
+    # combine features to one pd.dataframe
+    bespe = bespe_one.join([bespe_two_to_four, carbons, 
+                            oxygens, bespe_four_plus])
 
     # load MACCS fingerprint file
     maccs_fp = pd.read_csv(path.join(filepath, 'MACCS.txt'), 
