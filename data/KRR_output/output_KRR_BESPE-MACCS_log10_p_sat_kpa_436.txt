@@ -10,71 +10,71 @@ Random seed: 436
 Training_size: 8
 
 Training Errors: 
-Training MAE: 1.2288696102369379e-10
+Training MAE: 1.2405556790162642e-10
 Training r2: 1.0
-Training MSE: 2.590699478810399e-20
+Training MSE: 2.6314843424417962e-20
 
 Test Errors: 
-Test MAE: 0.8152547926970702
-Test r2: -0.45655635269522876
-Test MSE: 0.9542516961947652
+Test MAE: 0.7975412427775957
+Test r2: -0.42082395256474103
+Test MSE: 0.9308418889665497
 
 Optimal parameters: 
 Optimal alpha: 1e-10
 Optimal gamma: 0.1
-Best gridsearch score with optimal parameters: -0.7513303541686858
+Best gridsearch score with optimal parameters: -0.7587987550421269
 
 
 Training_size: 10
 
 Training Errors: 
-Training MAE: 0.11421353910172131
-Training r2: 0.9891652316581532
-Training MSE: 0.01789993541566815
+Training MAE: 0.11509624159801564
+Training r2: 0.988984250791089
+Training MSE: 0.018198930809912847
 
 Test Errors: 
-Test MAE: 0.6016277438583107
-Test r2: 0.19839380083398406
-Test MSE: 0.5251661384875131
+Test MAE: 0.5781332067408788
+Test r2: 0.19974559667806313
+Test MSE: 0.5242805198331202
 
 Optimal parameters: 
 Optimal alpha: 0.1
 Optimal gamma: 0.1
-Best gridsearch score with optimal parameters: -0.9533380531319022
+Best gridsearch score with optimal parameters: -0.956743369204412
 
 
 Training_size: 12
 
 Training Errors: 
-Training MAE: 0.013371468364246191
-Training r2: 0.9998303541866964
-Training MSE: 0.00024407250946216266
+Training MAE: 0.013396362705316614
+Training r2: 0.99982851670921
+Training MSE: 0.0002467161216590211
 
 Test Errors: 
-Test MAE: 0.552636883169349
-Test r2: 0.2992306751961129
-Test MSE: 0.4591036355016271
+Test MAE: 0.5289343216789946
+Test r2: 0.29771252487130817
+Test MSE: 0.4600982400151035
 
 Optimal parameters: 
 Optimal alpha: 0.01
 Optimal gamma: 0.1
-Best gridsearch score with optimal parameters: -0.8506877173499039
+Best gridsearch score with optimal parameters: -0.8507165114744474
 
 
 Training_size: 14
 
 Training Errors: 
-Training MAE: 0.12220402806386117
-Training r2: 0.9872713717468626
-Training MSE: 0.02365163638844162
+Training MAE: 0.12358604322077059
+Training r2: 0.9867474320832158
+Training MSE: 0.024625192231821892
 
 Test Errors: 
-Test MAE: 0.46401944664809675
-Test r2: 0.4751359510411267
-Test MSE: 0.34386064642392594
+Test MAE: 0.4815707198701038
+Test r2: 0.44529596796054827
+Test MSE: 0.36341008192388086
 
 Optimal parameters: 
 Optimal alpha: 0.1
 Optimal gamma: 0.1
-Best gridsearch score with optimal parameters: -0.8925950312571649
+Best gridsearch score with optimal parameters: -0.8881631279296238
 
