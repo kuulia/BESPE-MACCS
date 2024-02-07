@@ -52,7 +52,8 @@ def krr_regr(descriptor, target, seed, save_predictions, plotting):
     X_data = np.genfromtxt(descriptor_filename)
 
     # load target values
-    y_data = np.genfromtxt(target_property_filename)
+    y_data = np.genfromtxt(target_property_filename, comments='#')
+    print(y_data)
 
     # obtaining test set
     X, X_test, y, y_test = \
