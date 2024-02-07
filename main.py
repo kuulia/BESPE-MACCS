@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 #Author: Linus Lind Jan. 2024
 #LICENSED UNDER: Creative Commons Attribution-ShareAlike 4.0 International
 from model_scripts import *
@@ -14,7 +15,7 @@ def main():
 
     # select descriptor and target values to use 
     # (these should correspond to file names in data folder)
-    descriptor = 'MACCS_with_BESPE'
+    descriptor = 'BESPE-MACCS'
     target = 'log10_p_sat_kpa'
     random_state = [12, 432, 5, 7543, 12343, \
                     452, 325432435, 326, 436, 2435]

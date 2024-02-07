@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 #Author: Linus Lind Jan. 2024
 #LICENSED UNDER: Creative Commons Attribution-ShareAlike 4.0 International
 #Modifies MACCS fingerprint to create MACCS & SIMPOL (6) descriptor
@@ -69,7 +70,7 @@ def main():
 
     # append new features to MACCS
     maccs_and_bespe = maccs_fp.join(bespe)
-    fileoutname =  f'data/MACCS_with_BESPE.txt'
+    fileoutname =  f'data/BESPE-MACCS.txt'
     np.savetxt(fileoutname, maccs_and_bespe, fmt = "%s")
 
 if __name__ == "__main__":

@@ -1,10 +1,10 @@
 #!/usr/bin/python3
+
 #Author: Emma Lumiaro as part of Lumiaro et al. (2021) https://doi.org/10.5194/acp-21-13227-2021
-#Edited by Linus Lind Jan. 2024 as part of a Bachelor's thesis. Changes include
-#but not limited to:
-#filepath organization, code refactoring
+#Edited by Linus Lind Jan. 2024 as part of a Bachelor's thesis. 
+#Changes including, but not limited to:
+#filepath organization, code refactoring, adding option to save predictions and plotting
 #LICENSED UNDER: Creative Commons Attribution-ShareAlike 4.0 International
-#
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
