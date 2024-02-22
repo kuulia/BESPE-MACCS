@@ -73,7 +73,7 @@ def main():
     carbons = binary_encoded(smarts, 'carbon number', 'C', 5) # 5-bit encoding 
     oxygens = binary_encoded(smarts, 'oxygen count', 'O', 5)  # 5-bit encoding 
 
-    # combine features to one pd.dataframe
+    # combine features to a single DataFrame
     bespe = bespe_one.join([bespe_two_to_four, carbons, 
                             oxygens, bespe_four_plus])
 
